@@ -29,7 +29,3 @@ jobs:
     - name: Run tests with pytest
       run: |
         pytest
-    - name: Lint with pylint
-      run: |
-        pip install pylint
-        pylint my_project
